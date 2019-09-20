@@ -24,4 +24,4 @@ FUTURE PLANS
 
 INSTALLATION
 ------------
-- Just extract the files to /home/xtreamcodes/iptv_xtream_codes and overwrite.
+- Just extract the files to /home/xtreamcodes/iptv_xtream_codes and overwrite. Backup your old files!

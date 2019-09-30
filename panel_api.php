@@ -74,7 +74,7 @@ if (!empty(ipTV_lib::$request["username"]) && !empty(ipTV_lib::$request["passwor
 		}
 	}
 	else {
-		$output["user_info"]["auth"] = 0;}
+		$output["user_info"]["auth"] = 0;
 	}
 
 	echo json_encode($output);

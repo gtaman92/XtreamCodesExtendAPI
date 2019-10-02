@@ -57,7 +57,7 @@ if (!empty(ipTV_lib::$request["username"]) && !empty(ipTV_lib::$request["passwor
                         $rating = null;
                         $rating_5 = 0;
                     }
-                    $output[] = Array("num" => $i, "name" => $stream["stream_display_name"], "stream_type" => "live", "stream_id" => $stream["id"], "stream_icon" => $movie_properties["movie_image"], "added" => $stream["added"], "category_id" => $stream["category_id"], "direct_source" => "", "rating" => $rating, "rating_5based" => $rating_5, "custom_sid" => null, "container_extension" => $containers[$stream["target_container_id"]]);
+                    $output[] = Array("num" => $i, "name" => $stream["stream_display_name"], "stream_type" => "movie", "stream_id" => $stream["id"], "stream_icon" => $movie_properties["movie_image"], "added" => $stream["added"], "category_id" => $stream["category_id"], "direct_source" => "", "rating" => $rating, "rating_5based" => $rating_5, "custom_sid" => null, "container_extension" => $containers[$stream["target_container_id"]]);
                 }
             }
             break;

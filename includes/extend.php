@@ -1947,7 +1947,7 @@ class ipTV_Stream
 
 		$bouquet_channels_ids = array_unique($bouquet_channels_ids);
 		sort($bouquet_channels_ids);
-		self::$ipTV_db->query("SELECT * FROM `streams` WHERE `id` IN (" . implode(",", $bouquet_channels_ids) . ") ORDER BY `stream_display_name` ASC");
+		self::$ipTV_db->query("SELECT * FROM `streams` WHERE `id` IN (" . implode(",", $bouquet_channels_ids) . ")");
 		return self::$ipTV_db->get_rows();
 	}
 
